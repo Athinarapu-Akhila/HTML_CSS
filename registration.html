@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body style="background-color: lightskyblue;border:solid 5px;border-color: purple;">
+	<center>
+		<h1 style="color:darkblue;">Registration Form</h1>
+		<div class="container">
+		<form>
+			<div class="row">
+				<div class="col1">
+			    	<label for="username">User name</label>
+				</div>
+				<div class="col2">
+			  		<input type="text" id="uname" name="uname"><br><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col1">
+			  		<label for="password">Password</label>
+				</div>
+				<div class="col2">
+			  		<input type="text" id="pw" name="pw"><br><br>
+			     </div>
+			 </div>
+			 <div class="row">
+			  	<div class="col1">
+			  		<label for="password">re-password</label>
+				</div>
+				<div class="col2">
+			  		<input type="text" id="pw" name="pw"><br><br>
+			  	</div>
+			</div>
+		 <div class="row">
+		  	<div class="col1">
+		  		<label for="Mailid">Mail-id</label>
+			</div>
+			<div class="col2">
+		  		<input type="email" id="pw" name="pw"><br><br>
+		  	</div>
+		  </div>
+		  <div class="row">
+		  	<div class="col1">
+		  		<label for="html">Gender</label>
+			</div>
+			<div class="col2">
+			  <input type="radio" id="ma" name="Male" value="Male"><label for="html">Male</label>
+			  <input type="radio" id="fe" name="Female" value="Female"><label for="html">Female</label><br><br>
+			 </div>
+		</div>
+		 <div class="row">
+		  	<div class="col1">
+		    	<label for="addr">Address&nbsp&nbsp&nbsp</label>
+			</div>
+			<div class="col2">
+		  		<input type="text" id="pw" name="pw" width="150px" height="25px"><br><br>
+			</div>
+		</div>
+		 <div class="row">
+		  	<div class="col3">
+		  	<input type="submit" value="Submit" id="login">
+			</div>
+		 </div>
+
+	</form>
+		</div>
+</center>
+</body>
+<style type="text/css">
+	.container{
+		align-content: center;
+				  width: 800px;
+		  border: 15px solid blue;
+		  padding: 50px;
+		  margin: 20px;
+	}
+	label{
+	font-family: serif;
+	font-size: 15px;
+    color:darkblue;
+	padding: 12px 12px 12px 0;
+}
+input[type=text],input[type=email],input[type=submit]{
+  color: violet;
+  width: 150px;
+  height: 10px;
+  padding: 10px 20px;
+  margin: 0px;
+  border: 2px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[typr=radio]
+{
+	color: violet;
+  width: 150px;
+  height: 10px;
+  padding: 2px 20px;
+  margin: 8px 0;
+  border: 2px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit]{
+  color: violet;
+  font-size: 10px;
+  column-fill: yellow;
+  width: 150px;
+  height: 40px;
+  margin: 8px 0;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: orange;
+  color: white;
+            text-align: center;
+            font-size: 17px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col1{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col2{
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+</style>
+</html>
